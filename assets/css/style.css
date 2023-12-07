@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* HEADER */
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(62,107,253,.25);
+    padding: 0 60px 0 60px;
+    height: 80px;
+}
+
+/* LOGO */
+.logo img{
+    height: 55px ;
+}
+
+/* NAVBAR */
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar ul a{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.navbar ul a:hover{
+    color: #000;
+}
+
+/* SECTION HERO */
+#hero{
+    width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    padding: 70px 0;
+}
+
+#hero .hero-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#hero .hero-text h1{
+    max-width: 550px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+#hero .hero-text p > span{
+    background: linear-gradient(to right, #f83f3f, #f21c1c, #db1a1a);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero .hero-text p{
+    max-width: 550px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.hero-img img{
+    width: 550px;
+    height: 550px;
+}
+
+.btn-container .btn-blue{
+    display: inline-block;
+    padding: 4px 5px;
+    background: linear-gradient(to right, #f83f3f, #f21c1c, #db1a1a);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: transform 420ms ease-in-out;
+}
+
+.btn-blue:hover {
+    background: linear-gradient(to bottom right, #000000, #c8c8c8, #4f4f4f);
+}
+
+.hero-text a:hover{
+    transform: translateX(10px);
+}
+
+/* SECTION ABOUT */
+#about{
+    background-color: #b32c2c;
+    padding: 15px;
+    text-align: center;
+}
+
+#about p{
+    max-width: 550px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 16px;
+}
+
