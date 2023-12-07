@@ -83,7 +83,7 @@
     height: 550px;
 }
 
-.btn-container .btn-blue{
+.btn-container .btn-red{
     display: inline-block;
     padding: 4px 5px;
     background: linear-gradient(to right, #f83f3f, #f21c1c, #db1a1a);
@@ -99,11 +99,11 @@
     transition: transform 420ms ease-in-out;
 }
 
-.btn-blue:hover {
+.btn-red:hover {
     background: linear-gradient(to bottom right, #000000, #c8c8c8, #4f4f4f);
 }
 
-.hero-text a:hover{
+.hero-text .btn-red:hover{
     transform: translateX(10px);
 }
 
@@ -116,8 +116,32 @@
 
 #about p{
     max-width: 550px;
+    font-weight: 600;
     margin: 0 auto;
     color: #fff;
     font-size: 16px;
 }
+
+#about .btn-white {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 4px 7px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 500ms ease-in-out;
+    transform: scale(1.05);
+}
+
+#about .btn-white i{
+    margin-right: 10px;
+}
+
+#about .btn-white:hover {
+    transform: scale(1.2);
+}
+
+
 
