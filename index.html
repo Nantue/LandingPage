@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Link Archivos CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
 
@@ -27,12 +28,20 @@
 
         <!-- NAVBAR -->
         <nav class="navbar">
+
+            <!-- MENU DESPLEGABLE -->
+            <label for="menu-toggle" class="menu-toggle">
+                <img src="./assets/img/GgMenu.svg" alt="Menú desplegable" />
+              </label>
+              <input type="checkbox" id="menu-toggle" />
+
+            <!-- LISTA DE NAVEGACIÓN -->
             <ul>
                 <li>
                     <a class="link" href="#">Inicio</a>
                 </li>
                 <li>
-                    <a class="link" href="#">Productos</a>
+                    <a class="link" href="#">Servicios</a>
                 </li>
                 <li>
                     <a class="link" href="#">Nosotros</a>
@@ -61,10 +70,68 @@
             </div>
         </section>
 
+        <!-- SECTION ABOUT -->
         <section id="about">
             <p>Rayo.FIT redefine la moda fitness con estilo y rendimiento. Ofrecemos una experiencia única, fusionando diseño vanguardista y comodidad. Nuestros valores de calidad, innovación y compromiso se reflejan en cada prenda. Inspiramos confianza y determinación en cada cliente, elevando su presencia en el mundo del fitness. ¡Descubre la diferencia con Rayo.FIT!</p>
             <a class="btn-white" href="#"><i class="fa-solid fa-hand-pointer"></i>Más</a>
         </section>
+
+        <!-- SECTION SERVICE -->
+        <section id="service">
+            <div class="service-title">
+                <h2>Nuestros Servicios</h2>
+                <p>Mantén una postura impecable mientras te destacas con estilo.</p>
+            </div>
+            <div class="service-cards">
+                <div class="cards">
+                    <img src="assets/img/service-icon/icon-1.svg" alt="remera">
+                    <h3>Remera Rayo.FIT</h3>
+                    <p>Las remeras de Rayo.FIT ofrecen una experiencia de entrenamiento saludable al incorporar tejidos transpirables y de secado rápido, favoreciendo la gestión del sudor y evitando la acumulación de humedad en la piel.</p>
+                </div>
+                <div class="cards">
+                    <img src="assets/img/service-icon/icon-2.svg" alt="pantalones">
+                    <h3>Pantalón Rayo.FIT</h3>
+                    <p>Los pantalones Rayo.FIT favorecen la salud durante el ejercicio al incorporar tecnología que mejora la circulación sanguínea y mantiene una postura adecuada, junto con un diseño ergonómico que minimiza rozaduras y molestias en la piel.</p>
+                </div>
+                <div class="cards">
+                    <img src="assets/img/service-icon/icon-3.svg" alt="zapatillas">
+                    <h3>Zapatillas Rayo.FIT</h3>
+                    <p>Las zapatillas Rayo.FIT promueven la salud del sistema musculoesquelético al incorporar amortiguación avanzada y soporte anatómico, reduciendo el impacto en las articulaciones y ofreciendo estabilidad durante el ejercicio.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION CONTACT -->
+        <section id="contact">
+            <div class="contact-info">
+                <h3>Contáctanos</h3>
+                <div class="contact-info-container">
+                    <div class="column-info">
+                        <h4>Datos</h4>
+                        <p><img class="icon-img" src="assets/img/contact-icon/location.svg" alt="ubicación"> Servidor random 123</p>
+                        <p><img class="icon-img" src="assets/img/contact-icon/email.svg" alt="Mail">example@hotmail.com</p>
+                        <p><img class="icon-img" src="assets/img/contact-icon/phone.svg" alt="telefono">+1 23 3233-4344</p>
+                    </div>
+                    <div class="column-info">
+                        <h4>Redes sociales</h4>
+                        <p><img class="icon-img" src="assets/img/contact-icon/TwitterX.svg" alt="twitter">Twitter</p>
+                        <p><img class="icon-img" src="assets/img/contact-icon/Instagram.svg" alt="Instagram">Instagram</p>
+                        <p><img class="icon-img" src="assets/img/contact-icon/Facebook.svg" alt="Facebook">Facebook</p>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.397239214585!2d-58.761029608263385!3d-34.42262087150742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fedc44b2f01%3A0x61659f76d22e06db!2sLas%20Higueras!5e1!3m2!1ses-419!2sar!4v1673638715131!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer class="pie-pagina">
+            <div class="footer-logo">
+                <img src="assets/img/Trueno.FIT.png" alt="logo">
+            </div>
+            <div class="copyright">
+                <small>&copy; 2023 <b>RAYO.FIT</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+
     </main>
     
 
